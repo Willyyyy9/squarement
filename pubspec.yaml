@@ -1,0 +1,44 @@
+name: squarement
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  auto_size_text: ^3.0.0
+  flutter_easyloading: ^3.0.5
+  font_awesome_flutter: ^10.6.0
+  dio: ^5.3.4
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins-bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins-semi-bold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins-medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins-regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins-light.ttf
+          weight: 300
+
+
